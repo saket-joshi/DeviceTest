@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Device Test</string>
+    <string name="action_settings">Settings</string>
+    <string name="lblInfo">To begin with testing of various attributes of the device such as the screen, camera, sensors, click on the &quot;Start Testing&quot; button</string>
+    <string name="btnStartTest">Start Testing</string>
+    <string name="lblColorInfo">To continue to the next color, touch the screen</string>
+    <string name="lblX">X Co-Ordinate:   </string>
+    <string name="lblY">Y Co-Ordinate:   </string>
+    <string name="lblTouch">Touch Points:   </string>
+    <string name="strEmpty"/>
+    <string name="btnProceed">Proceed</string>
+    <string name="btnVibrate">Vibrate</string>
+    <string name="chkVolUp">Volume Up</string>
+    <string name="chkVolDown">Volume Down</string>
+    <string name="chkPower">Power Button</string>
+    <string name="chkMenu">Menu Button</string>
+    <string name="chkHome">Home Button</string>
+    <string name="chkBack">Back Button</string>
+    <string name="btnFlashON">Turn ON Flash</string>
+    <string name="btnFlashOFF">Turn OFF Flash</string>
+
+</resources>

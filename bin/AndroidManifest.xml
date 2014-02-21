@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.syntaxsofts.devicetest"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-feature android:name="android.hardware.camera" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        
+        <activity
+            android:name="com.syntaxsofts.devicetest.ActivityMain"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name="ActivityScreenColor"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen" >         
+        </activity>
+        
+        <activity android:name="ActivityTouchPanel"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen"> 
+        </activity>
+        
+        <activity android:name="ActivityVibrator"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light.DarkActionBar">
+        </activity>
+        
+        <activity android:name="ActivityButtonTest"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+        <activity android:name="ActivityNotificationLights"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+        <activity android:name="ActivityCameraRear"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen">
+        </activity>
+        
+        <activity android:name="ActivityCameraFront"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen" >
+        </activity>
+        
+        <activity android:name="ActivityFlash"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+        <activity android:name="ActivitySensor"
+            android:screenOrientation="portrait" >
+          
+        </activity>
+        <activity android:name="ActivitySaveToFile">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                </intent-filter>
+        </activity>
+        
+    </application>
+
+</manifest>
